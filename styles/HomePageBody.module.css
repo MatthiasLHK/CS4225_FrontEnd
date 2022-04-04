@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.title {
+    font-family: 'Anton', sans-serif;
+    font-size: 300%;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.intro {
+    font-family: "JetBrains Mono";
+    font-size: 40%;
+    text-align: center;
+    color: black;
+    /* background-color: #094378; */
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    margin: 20%;
+    border-radius: 5px;
+    background-color: #094378;
+    box-sizing: content-box;
+    color: white;    
+}
+
+.column_block {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column {
+    background-color: #6D327B;
+    padding: 20px;
+    margin: 10%;
+    width: 40%;
+    min-height: 70vh;
+    border-radius: 10px;
+}
+
+.column_text_box {
+    background-color: #7B4CE0;
+    border-radius: 10px;
+    margin: 5%;
+    font-size: 4vh;
+    font-family: "JetBrains Mono";
+    min-height: 70vh;
+}
+
+.link_button {
+    background-color: #FFFFFF;
+    opacity: 78%;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 90%;
+}
+
+.developers {
+    display: flex;
+    flex-direction: column;
+}
+
+.developers_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.developer_profile {
+    margin: 5%;
+    font-size: 60%;
+    overflow: hidden;
+    max-width: 15%;
+}
+
+.profile_image {
+    border-radius: 1000;
+}
+
